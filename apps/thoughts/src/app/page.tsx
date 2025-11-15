@@ -2,8 +2,8 @@ export default function Index() {
   const thoughts = [
     {
       id: 1,
-      title: 'Human Desires',
-      link: '/thoughts/human-desires',
+      title: 'The Illusion Of Self',
+      link: '/thoughts/the-illusion-of-self',
     },
     // {
     //   id: 2,

@@ -1,4 +1,3 @@
-import { Navbar } from '../components/navbar';
 import '../global.css';
 
 export default function ThoughtsLayout({
@@ -8,7 +7,6 @@ export default function ThoughtsLayout({
 }) {
   return (
     <>
-      {/* <Navbar /> */}
       <main>{children}</main>
     </>
   );

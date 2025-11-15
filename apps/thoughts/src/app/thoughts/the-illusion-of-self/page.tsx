@@ -19,26 +19,25 @@ export default function HumanDesires() {
             I never selected. If someone is born blind or with a disability,
             they didn&apos;t choose it. Just like others didn&apos;t choose to
             be healthy or athletic.
-            <p>
-              {' '}
-              The mind seems personal, yet it is built from layers we
-              didn&apos;t choose: language, beliefs, culture, education, and
-              upbringing. If you were born in Japan, you&apos;d probably speak
-              Japanese and have very different ideas about life than someone
-              born in Brazil. The mind is shaped by beliefs, family, culture,
-              religion, — things we didn&apos;t choose in our young age. It’s a
-              magnificent library of information, but the foundational shelves
-              were stocked by others.
-            </p>{' '}
-            <p>
-              Thoughts seem very personal. But they often come from things
-              around us. If you see someone crying, you might feel sad. If you
-              hear a song from your childhood, memories pop up. Even reading
-              this now might make you question your identity. You didn&apos;t
-              plan these thoughts — they just appeared. We mistake their sudden
-              presence for ownership, yet they are more like visitors passing
-              through an open door.
-            </p>
+          </p>
+          <p>
+            {' '}
+            The mind seems personal, yet it is built from layers we didn&apos;t
+            choose: language, beliefs, culture, education, and upbringing. If
+            you were born in Japan, you&apos;d probably speak Japanese and have
+            very different ideas about life than someone born in Brazil. The
+            mind is shaped by beliefs, family, culture, religion, — things we
+            didn&apos;t choose in our young age. It’s a magnificent library of
+            information, but the foundational shelves were stocked by others.
+          </p>{' '}
+          <p>
+            Thoughts seem very personal. But they often come from things around
+            us. If you see someone crying, you might feel sad. If you hear a
+            song from your childhood, memories pop up. Even reading this now
+            might make you question your identity. You didn&apos;t plan these
+            thoughts — they just appeared. We mistake their sudden presence for
+            ownership, yet they are more like visitors passing through an open
+            door.
           </p>
         </section>
       </main>
