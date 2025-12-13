@@ -1,15 +1,3 @@
-// export default function RootLayout({
-//   children,
-// }: {
-//   children: React.ReactNode;
-// }) {
-//   return (
-//     <html lang="en">
-//       <body>{children}</body>
-//     </html>
-//   );
-// }
-
 export default function RootLayout({
   children,
 }: {
@@ -23,7 +11,7 @@ export default function RootLayout({
           href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css"
         />
       </head>
-      <body>{children}</body>
+      <body className="thought-body">{children}</body>
     </html>
   );
 }

@@ -8,11 +8,15 @@ export default function HumanDesires() {
   const toggleLanguage = () => setIsNepali(!isNepali);
 
   return (
-    <div className="human-desire p-6">
+    <div className="human-desire  p-6">
       {/* Toggle Button */}
       <div className="text-right mb-4">
-        <button className="nes-btn is-primary" onClick={toggleLanguage}>
-          {isNepali ? 'Show In English' : 'Show In Nepali'}
+        <button
+          className="nes-btn is-secondary
+        "
+          onClick={toggleLanguage}
+        >
+          {isNepali ? 'Show English' : 'Show Nepali'}
         </button>
       </div>
 

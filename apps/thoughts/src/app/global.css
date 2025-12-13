@@ -5,8 +5,13 @@
 
 body{
  background-color: #1b1c1d;
-
 }
+
+
+.thought-body{
+   background-color: #1b1c1d;
+}
+
 .human-desire {
   max-width: 800px;
   margin: 0 auto;
