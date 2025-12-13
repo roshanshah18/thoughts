@@ -1,4 +1,4 @@
-import 'nes.css/css/nes.min.css';
+// import 'nes.css/css/nes.min.css';
 
 export default function Index() {
   const thoughts = [
