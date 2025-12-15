@@ -116,13 +116,13 @@ export default function Index() {
             rel="noopener noreferrer"
           />
           <a
-            href="https://x.com/"
+            href="https://www.reddit.com/user/Roshan_Official/"
             className="nes-icon reddit is-large"
             target="_blank"
             rel="noopener noreferrer"
           />
           <a
-            href="https://x.com/"
+            href="https://www.linkedin.com/in/roshan-shah-a95636288/"
             className="nes-icon linkedin is-large"
             target="_blank"
             rel="noopener noreferrer"
