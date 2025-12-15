@@ -1,3 +1,5 @@
+import { pressStartFont } from './components/font/font';
+
 export default function RootLayout({
   children,
 }: {
@@ -11,7 +13,9 @@ export default function RootLayout({
           href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css"
         />
       </head>
-      <body className="thought-body">{children}</body>
+      <body className={` ${pressStartFont.className} thought-body`}>
+        {children}
+      </body>
     </html>
   );
 }

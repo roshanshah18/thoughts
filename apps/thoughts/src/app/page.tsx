@@ -1,5 +1,7 @@
 // import 'nes.css/css/nes.min.css';
 
+import { pressStartFont } from './components/font/font';
+
 export default function Index() {
   const thoughts = [
     {
@@ -7,18 +9,7 @@ export default function Index() {
       title: 'Nothing is truly Ours',
       link: '/thoughts/the-illusion-of-self',
     },
-    // {
-    //   id: 2,
-    //   title: 'Flow State & Creativity',
-    //   link: '/thoughts/flow-state-creativity',
-    // },
-    // {
-    //   id: 3,
-    //   title: 'Silence Between Notes',
-    //   link: '/thoughts/silence-between-notes',
-    // },
   ];
-
   //   <div className="lists">
   //   <ul className="nes-list is-disc">
   //     <li>Good morning.</li>
@@ -62,7 +53,9 @@ export default function Index() {
             style={{ imageRendering: 'pixelated' }}
           /> */}
 
-          <h2 className="nes-text is-primary">Ready to Explore?</h2>
+          <h2 className={`${pressStartFont.className} nes-text is-primary`}>
+            Ready to Explore?
+          </h2>
           {/* <progress className="nes-progress" value="90" max="100"></progress> */}
           <ul className="nes-list is-disc">
             {thoughts.map((thought) => (
@@ -104,44 +97,37 @@ export default function Index() {
           </section>
         </section> */}
 
-        {/* <section className="icon-list">
+        <section
+          className="icon-list"
+          style={{
+            position: 'fixed',
+            left: '50%',
+            bottom: '1rem',
+            transform: 'translateX(-50%)',
+            display: 'flex',
+            gap: '1rem',
+            zIndex: 50,
+          }}
+        >
           <a
             href="https://github.com/roshanshah18"
-            className="nes-icon github is-medium"
+            className="nes-icon github is-large"
             target="_blank"
             rel="noopener noreferrer"
-          ></a>
+          />
           <a
             href="https://x.com/"
-            className="nes-icon twitter is-medium"
+            className="nes-icon reddit is-large"
             target="_blank"
             rel="noopener noreferrer"
-          ></a>
+          />
           <a
             href="https://x.com/"
-            className="nes-icon twitter is-medium"
+            className="nes-icon linkedin is-large"
             target="_blank"
             rel="noopener noreferrer"
-          ></a>
-          </section> */}
-        {/* <i className="snes-jp-logo"></i> */}
-        {/* <section className="nes-container">
-          <section className="message-list">
-            <section className="message -left">
-              <i className="nes-bcrikko"></i>
-              <div className="nes-balloon from-left">
-                <p>Hello NES.css</p>
-              </div>
-            </section>
-
-            <section className="message -right">
-              <div className="nes-balloon from-right">
-                <p>Good morning. Thou hast had a good night's sleep, I hope.</p>
-              </div>
-              <i className="nes-bcrikko"></i>
-            </section>
-          </section>
-        </section> */}
+          />
+        </section>
 
         <i
           className="nes-squirtle"
@@ -149,6 +135,28 @@ export default function Index() {
             position: 'fixed',
             bottom: '1rem',
             right: '1rem',
+            zIndex: 50,
+          }}
+        ></i>
+
+        <img
+          style={{
+            position: 'fixed',
+            bottom: '5rem',
+            left: '50%',
+            zIndex: 50,
+            transform: 'translateX(-50%)',
+          }}
+          src="https://count.getloli.com/@:thoughts-roshanshah18?theme=booru-r6gdrawfriends"
+          alt="visitor counter"
+        />
+
+        <i
+          className="nes-pokeball mt-32"
+          style={{
+            position: 'fixed',
+            bottom: '2rem',
+            right: '10rem',
             zIndex: 50,
           }}
         ></i>

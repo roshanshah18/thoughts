@@ -7,7 +7,7 @@ export default function ThoughtsLayout({
 }) {
   return (
     <>
-      <main>{children}</main>
+      <main className="font-mono">{children}</main>
     </>
   );
 }
